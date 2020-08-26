@@ -1,0 +1,24 @@
+<nav>
+    <a href="signup">|Signup|</a>
+    <a href="profile">|Profile|</a>
+    <a href="login">|Login|</a>
+    <a href="logout">|Logout|</a>
+    <a href="admin">|Admin|</a>
+</nav>
+
+<h1>Please Create A Post</h1>
+
+<form method="POST" action="editPost" id="editPost" name="editPost">
+    <div>
+        <label for="postTitle">Title:</label>
+        <input type="text" id="postTitle" name="postTitle" />
+    </div>
+    <div>
+        <label for="postBody">Details:</label>
+        <textarea type="text" id="postBody" name="postBody"></textarea>
+    </div>
+    <div>
+        <button type="submit">Update Post</button>
+        <button type="delete">Delete Post</button>
+    </div>
+</form>

@@ -1,0 +1,22 @@
+<nav>
+    <a href="signup">|Signup|</a>
+    <a href="profile">|Profile|</a>
+    <a href="login">|Login|</a>
+    <a href="logout">|Logout|</a>
+    <a href="admin">|Admin|</a>
+</nav>
+
+<div>
+<h1>Hello {{FirstName}} {{LastName}}</h1>
+<h2>Username: {{Username}}</h2>
+</div>
+<div>
+<button type="delete">Delete User</button>
+</div>
+
+{{#each posts}}
+<div>
+    <h2>{{PostTitle}}</h2>
+    <p>{{PostBody}}</p>
+</div>
+{{/each}}
